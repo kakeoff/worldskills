@@ -1,0 +1,198 @@
+/* menu/body */
+body{
+    font-family: 'Montserrat';
+}
+
+nav, .head-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-head{
+    font-size: 36px;
+    margin: 37px 50px;
+}
+
+.head-buttons li{
+    font-size: 18px;
+    line-height: 38px;
+    padding: 25px 50px;
+    background-color: #35B7E0;
+    margin: 15px 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+.my{
+    color:#66CBD1;
+}
+
+.menu{
+    background-color: #1995AD;
+}
+
+/* sections */
+
+.section-1, .section-2, .section-4{
+    height: 958px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* section-1 */
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('section1.jpg');
+}
+
+.body-title{
+    font-size: 72px;
+    line-height: 87.77px;
+}
+
+.product-list{
+    margin-top: 35px;
+    text-align: center;
+    color: #1995AD;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
+.to-products{
+    margin-top: 35px;
+    font-size: 36px;
+    line-height: 51px;
+    background-color: #1995AD;
+    text-decoration: none;
+    padding: 39px 90px;
+    border-radius: 40px;
+}
+
+/* section-2 */
+
+.section-2{
+    background-image: url('section2.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits, .tips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 674px;
+    width: 674px;
+    background-color: #1995AD;
+    border-radius: 100%;
+}
+
+.sec-2-title{
+    font-size: 42px;
+    line-height: 51px;
+    max-width: 50%;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.sec-2-article{
+    font-size: 36px;
+    line-height: 51px;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.selectors{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectors div{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+}
+
+#ben1:active{
+    display: none;
+}
+
+/*section 4*/
+
+.section-4 {
+    display: flex;
+    left: 0px;
+    top: 0px;
+    flex-direction: column;
+    background-image: url(section4.jpg);
+}
+
+.sec-4-line {
+    display: flex;
+    height: 132px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    background: #1995AD;
+}
+
+.sec-4-title {
+    width: 438px;
+    height: 69px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    line-height: 142.9%;
+}
+
+.sec-4-items {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sec-4-mihail {
+    width: 445px;
+    height: 445px;
+    background-image: url(mihail.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 100%;
+}
+
+.sec-4-dmitriy {
+    width: 445px;
+    height: 445px;
+    background-image: url(dmitry.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 100%;
+}
+
+.sec-4-alex {
+    width: 445px;
+    height: 445px;
+    background-image: url(alex.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 100%;
+}
+
